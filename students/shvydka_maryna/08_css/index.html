@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma</title>
+  </head>
+  <style>
+/*Reset start*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+/*Main css*/
+    body  {
+      max-width: 944px;
+      font-family: Open Sans;
+      color: #070707;
+      text-align: center;
+      margin: 0 auto;
+      text-decoration: none;
+     }
+
+    .menu_list .menu_item {
+      color: #828282;
+      font-size: 18px;
+      font-weight: 400;
+      text-decoration: none;
+    }
+
+    .menu_list .menu_item:hover,
+    .menu_list .menu_item:active
+     {
+      color: #070707;
+    }
+    h1 {
+      font-size: 47.339px;
+      font-weight: 700;
+      text-align: left;
+   }
+
+    .section_title {
+    font-size: 34px;
+    font-weight: 700;
+   }
+
+    .section_slogan {
+    color: #828282;
+    font-size: 14px;
+    font-weight: 400;
+   }
+
+    .slogan {
+    width: 243px;
+   }
+   
+    .section_subtitle {
+      font-size: 18px;
+      font-weight: 400;
+      text-decoration: none;
+      color: #070707;
+       }
+
+      .section_subtitle.link:focus,
+      .section_subtitle.link:hover {
+        text-decoration: underline;
+      }
+          
+    .menu_list {
+    color:  #828282;
+   }
+
+    .section_subtitle.row {
+      width: 276px;
+     }
+
+    .btn {
+    width: 181px;
+    background-color:#070707;
+    border-radius: 50px;
+   }
+
+   span {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+   }
+   
+  </style>
+  <body>
+    <!--Header-->
+    <header>
+      <nav class="nav_menu">
+        <ul class="menu_list">
+          <li><a class="menu_item" href="#home">Home</a></li>
+          <li><a class="menu_item" href="#about">About me</a></li>
+          <li><a class="menu_item" href="#skills">Skills</a></li>
+          <li><a class="menu_item" href="#portfolio">Portfolio</a></li>
+          <li><a class="menu_item" href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h1 id="home">Denis Novik</h1>
+          <img src="images/jpeg/Group-min.jpg" width="944" alt="Denis Novik" />
+        </div>
+      </section>
+      <!--About me-->
+      <section>
+        <h2 class="section_title" id="about">About me</h2>
+        <p class="section_subtitle">
+          Hi, I'm Denis - UX/UI designer from Minsk. I'm interested in design
+          and everything connected with it. <br />
+          I'm studying at courses "Web and mobile design interfaces" in
+          IT-Academy. <br />
+          Ready to implement excellent projects with wonderful people.
+        </p>
+      </section>
+      <!--Skills-->
+      <section>
+        <h2 class="section_title" id="skills">Skills</h2>
+        <p class="section_subtitle">I work in such programs as</p>
+        <ul>
+          <li>
+            <div>
+              <img src="images/svg/ps.svg" alt="Icon Photoshop" />
+              <p class="section_slogan">Adobe Photoshop</p>
+            </div>
+            <div>
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/light_star.svg" alt="light stars" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="images/svg/Ai.svg" alt="Icon Illustrator" />
+              <p class="section_slogan">Adobe Illustrator</p>
+            </div>
+            <div>
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/light_star.svg" alt="light stars" />
+              <img src="images/svg/light_star.svg" alt="light stars" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="images/svg/Ae.svg" alt="Icon Adobe" />
+              <p class="section_slogan">Adobe After Effects</p>
+            </div>
+            <div>
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/light_star.svg" alt="light stars" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="images/svg/figma.svg" alt="Icon Figma" />
+              <p class="section_slogan">Figma</p>
+            </div>
+            <div>
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/dark_star.svg" alt="dark stars" />
+              <img src="images/svg/light_star.svg" alt="light stars" />
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!--Portfolio-->
+      <section>
+        <h2 class="section_title" id="portfolio">Portfolio</h2>
+        <div>
+          <img
+            src="images/jpeg/Слой-8-min.jpg"
+            width="945"
+            alt="Woman and Man collection"
+          />
+        </div>
+        <a href="#" class="section_subtitle link">Online fashion store - Homepage</a>
+        <div>
+          <img src="images/jpeg/reebok_web-min.jpg" alt="Reebok" />
+        </div>
+        <a href="#" class="section_subtitle link">Reebok Store - Concept</a>
+        <div>
+          <img src="images/jpeg/camera-min.jpg" alt="Braun" />
+        </div>
+        <a href="#" class="section_subtitle link">Braun Landing Page - Concept</a>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer>
+      <h2 class="section_title" id="contacts">Contacts</h2>
+      <p class="section_subtitle row">
+        Want to know more or just chat? You are welcome!
+      </p>
+      <div class="btn_first">
+        <button class="btn" type="button"><span>Send message</span></button>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="www.linkedin.com/" target="_blank"
+              ><img src="images/svg/linkin.svg" alt="LinkIn"
+            /></a>
+          </li>
+          <li>
+            <a href="www.instagram.com/" target="_blank"
+              ><img src="images/svg/instagram.svg" alt="Instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="www.behance.net/" target="_blank"
+              ><img src="images/svg/behance.svg" alt="Behance"
+            /></a>
+          </li>
+          <li>
+            <a href="dribbble.com/" target="_blank"
+              ><img src="images/svg/global.svg" alt="Dribble"
+            /></a>
+          </li>
+        </ul>
+      </div>
+     <div class="slogan">
+        <p class="section_slogan">
+          Like me on LinkedIn, Instagram, Behance, Dribble
+        </p>
+     </div>
+    </footer>
+  </body>
+</html>
